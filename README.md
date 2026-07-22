@@ -1,58 +1,58 @@
-\# Computer Networks (CSA07)
+# Computer Networks (CSA0716)
 
+This repository contains my Computer Networks laboratory work, including assessments and Cisco Packet Tracer experiments.
 
+---
 
-\## Assessment Tool 1
+## Student Details
 
+- **Name:** Naga Jaswanth B
+- **Department:** Artificial Intelligence & Data Science
+- **Course:** CSA0716 – Computer Networks
 
+---
 
-\### Student Details
+## Repository Structure
 
-\- \*\*Name:\*\* Naga Jaswanth B
-
-\- \*\*Register Number:\*\* 192424300
-
-\- \*\*Department:\*\* Artificial Intelligence \& Data Science
-
-\- \*\*Institution:\*\* SIMATS Engineering
-
-
-
-\## Course Outcome
-
-\*\*CO1:\*\* Apply the functions of the OSI layer in enabling reliable data transmission across networks.
-
-
-
-\## Contents
-
-\- Assessment Tool 1 Solutions (Word Document)
-
-
-
-\## Repository Structure
-
-
-
-```
-
+```text
 Computer-Networks/
-
-│── CSA07\_Computer\_Networks\_AT1.docx
-
-│── README.md
-
+│
+├── Assessments/
+├── Experiments/
+└── README.md
 ```
 
+---
 
+## Assessments
 
-\## Submission
+| CO | Status |
+|----|--------|
+| CO1 | ✅ Completed |
 
-This repository contains the solutions for \*\*Computer Networks (CSA07) Assessment Tool 1\*\*.
+---
 
+## Cisco Packet Tracer Experiments
 
+| Experiment | Title | Status |
+|------------|-------|--------|
+| 01 | Network Components | ✅ Completed |
+| 02 | Star Topology | ✅ Completed |
+| 03 | Bus Topology | ✅ Completed |
+| 04 | Ring Topology | ✅ Completed |
+| 05 | Mesh Topology | ✅ Completed |
 
-\## GitHub Repository
+---
 
-https://github.com/Jaswanth300/Computer-Networks
+## Software Used
 
+- Cisco Packet Tracer
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## Author
+
+**Naga Jaswanth B**
