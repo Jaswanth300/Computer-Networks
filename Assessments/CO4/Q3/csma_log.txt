@@ -1,0 +1,154 @@
+[00000.0 ms] ================================================================================
+[00000.0 ms]           CSMA/CD ETHERNET STAR TOPOLOGY SIMULATION STARTED
+[00000.0 ms] ================================================================================
+[00000.0 ms] Active Hosts: Host_A, Host_B, Host_C, Host_D
+[00000.0 ms] Medium Parameters: IEEE 802.3 Half-Duplex Star, Slot Time = 51.2 ms
+[00000.0 ms] --------------------------------------------------------------------------------
+[00000.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00000.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_A', 'Host_B', 'Host_C', 'Host_D'] attempted simultaneous transmission!
+[00000.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00000.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00000.0 ms] [BACK-OFF CALCULATED] Host_A | Collision #1 | BEB multiplier k=0 | Wait Time: 0.0 ms | Resume at: 30.0 ms.
+[00000.0 ms] [BACK-OFF CALCULATED] Host_B | Collision #1 | BEB multiplier k=1 | Wait Time: 51.2 ms | Resume at: 81.2 ms.
+[00000.0 ms] [BACK-OFF CALCULATED] Host_C | Collision #1 | BEB multiplier k=1 | Wait Time: 51.2 ms | Resume at: 81.2 ms.
+[00000.0 ms] [BACK-OFF CALCULATED] Host_D | Collision #1 | BEB multiplier k=0 | Wait Time: 0.0 ms | Resume at: 30.0 ms.
+[00030.0 ms] [STATE CHANGE] Host_A completed back-off delay. Status: READY to transmit.
+[00030.0 ms] [STATE CHANGE] Host_D completed back-off delay. Status: READY to transmit.
+[00030.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00030.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_A', 'Host_D'] attempted simultaneous transmission!
+[00030.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00030.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00030.0 ms] [BACK-OFF CALCULATED] Host_A | Collision #2 | BEB multiplier k=1 | Wait Time: 51.2 ms | Resume at: 111.2 ms.
+[00030.0 ms] [BACK-OFF CALCULATED] Host_D | Collision #2 | BEB multiplier k=1 | Wait Time: 51.2 ms | Resume at: 111.2 ms.
+[00090.0 ms] [STATE CHANGE] Host_B completed back-off delay. Status: READY to transmit.
+[00090.0 ms] [STATE CHANGE] Host_C completed back-off delay. Status: READY to transmit.
+[00090.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00090.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_B', 'Host_C'] attempted simultaneous transmission!
+[00090.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00090.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00090.0 ms] [BACK-OFF CALCULATED] Host_B | Collision #2 | BEB multiplier k=2 | Wait Time: 102.4 ms | Resume at: 222.4 ms.
+[00090.0 ms] [BACK-OFF CALCULATED] Host_C | Collision #2 | BEB multiplier k=3 | Wait Time: 153.6 ms | Resume at: 273.6 ms.
+[00120.0 ms] [STATE CHANGE] Host_A completed back-off delay. Status: READY to transmit.
+[00120.0 ms] [STATE CHANGE] Host_D completed back-off delay. Status: READY to transmit.
+[00120.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00120.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_A', 'Host_D'] attempted simultaneous transmission!
+[00120.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00120.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00120.0 ms] [BACK-OFF CALCULATED] Host_A | Collision #3 | BEB multiplier k=3 | Wait Time: 153.6 ms | Resume at: 303.6 ms.
+[00120.0 ms] [BACK-OFF CALCULATED] Host_D | Collision #3 | BEB multiplier k=5 | Wait Time: 256.0 ms | Resume at: 406.0 ms.
+[00230.0 ms] [STATE CHANGE] Host_B completed back-off delay. Status: READY to transmit.
+[00230.0 ms] [TRANSMISSION ATTEMPT] Host_B sensed channel IDLE. Transmitting FRAME_Host_B_1 to Host_A (Duration: 150.0 ms).
+[00230.0 ms] [SUCCESS] Host_B successfully delivered FRAME_Host_B_1 without collision.
+[00240.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00250.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00260.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00270.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00280.0 ms] [STATE CHANGE] Host_C completed back-off delay. Status: READY to transmit.
+[00280.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00280.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00290.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00290.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00300.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00300.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00310.0 ms] [STATE CHANGE] Host_A completed back-off delay. Status: READY to transmit.
+[00310.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00310.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00310.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00320.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00320.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00320.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00330.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00330.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00330.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00340.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00340.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00340.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00350.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00350.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00350.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00360.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00360.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00360.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00370.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[00370.0 ms] [CARRIER SENSE] Host_B sensed channel BUSY. Deferring transmission attempt.
+[00370.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00380.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00380.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_A', 'Host_B', 'Host_C'] attempted simultaneous transmission!
+[00380.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00380.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00380.0 ms] [BACK-OFF CALCULATED] Host_A | Collision #4 | BEB multiplier k=14 | Wait Time: 716.8 ms | Resume at: 1126.8 ms.
+[00380.0 ms] [BACK-OFF CALCULATED] Host_B | Collision #1 | BEB multiplier k=0 | Wait Time: 0.0 ms | Resume at: 410.0 ms.
+[00380.0 ms] [BACK-OFF CALCULATED] Host_C | Collision #3 | BEB multiplier k=4 | Wait Time: 204.8 ms | Resume at: 614.8 ms.
+[00410.0 ms] [STATE CHANGE] Host_B completed back-off delay. Status: READY to transmit.
+[00410.0 ms] [STATE CHANGE] Host_D completed back-off delay. Status: READY to transmit.
+[00410.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00410.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_B', 'Host_D'] attempted simultaneous transmission!
+[00410.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00410.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00410.0 ms] [BACK-OFF CALCULATED] Host_B | Collision #2 | BEB multiplier k=1 | Wait Time: 51.2 ms | Resume at: 491.2 ms.
+[00410.0 ms] [BACK-OFF CALCULATED] Host_D | Collision #4 | BEB multiplier k=5 | Wait Time: 256.0 ms | Resume at: 696.0 ms.
+[00500.0 ms] [STATE CHANGE] Host_B completed back-off delay. Status: READY to transmit.
+[00500.0 ms] [TRANSMISSION ATTEMPT] Host_B sensed channel IDLE. Transmitting FRAME_Host_B_2 to Host_A (Duration: 150.0 ms).
+[00500.0 ms] [SUCCESS] Host_B successfully delivered FRAME_Host_B_2 without collision.
+[00620.0 ms] [STATE CHANGE] Host_C completed back-off delay. Status: READY to transmit.
+[00620.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00630.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00640.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00650.0 ms] [TRANSMISSION ATTEMPT] Host_C sensed channel IDLE. Transmitting FRAME_Host_C_1 to Host_D (Duration: 150.0 ms).
+[00650.0 ms] [SUCCESS] Host_C successfully delivered FRAME_Host_C_1 without collision.
+[00660.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00670.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00680.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00690.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00700.0 ms] [STATE CHANGE] Host_D completed back-off delay. Status: READY to transmit.
+[00700.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00700.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00710.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00710.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00720.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00720.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00730.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00730.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00740.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00740.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00750.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00750.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00760.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00760.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00770.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00770.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00780.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00780.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00790.0 ms] [CARRIER SENSE] Host_C sensed channel BUSY. Deferring transmission attempt.
+[00790.0 ms] [CARRIER SENSE] Host_D sensed channel BUSY. Deferring transmission attempt.
+[00800.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00800.0 ms] [COLLISION DETECTED] Multiple hosts ['Host_C', 'Host_D'] attempted simultaneous transmission!
+[00800.0 ms] [JAMMING SIGNAL] Broadcasting 32-bit Jamming signal to enforce collision state across star hub.
+[00800.0 ms] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00800.0 ms] [BACK-OFF CALCULATED] Host_C | Collision #1 | BEB multiplier k=0 | Wait Time: 0.0 ms | Resume at: 830.0 ms.
+[00800.0 ms] [BACK-OFF CALCULATED] Host_D | Collision #5 | BEB multiplier k=28 | Wait Time: 1433.6 ms | Resume at: 2263.6 ms.
+[00830.0 ms] [STATE CHANGE] Host_C completed back-off delay. Status: READY to transmit.
+[00830.0 ms] [TRANSMISSION ATTEMPT] Host_C sensed channel IDLE. Transmitting FRAME_Host_C_2 to Host_D (Duration: 150.0 ms).
+[00830.0 ms] [SUCCESS] Host_C successfully delivered FRAME_Host_C_2 without collision.
+[01130.0 ms] [STATE CHANGE] Host_A completed back-off delay. Status: READY to transmit.
+[01130.0 ms] [TRANSMISSION ATTEMPT] Host_A sensed channel IDLE. Transmitting FRAME_Host_A_1 to Host_B (Duration: 150.0 ms).
+[01130.0 ms] [SUCCESS] Host_A successfully delivered FRAME_Host_A_1 without collision.
+[01140.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01150.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01160.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01170.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01180.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01190.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01200.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01210.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01220.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01230.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01240.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01250.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01260.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01270.0 ms] [CARRIER SENSE] Host_A sensed channel BUSY. Deferring transmission attempt.
+[01280.0 ms] [TRANSMISSION ATTEMPT] Host_A sensed channel IDLE. Transmitting FRAME_Host_A_2 to Host_B (Duration: 150.0 ms).
+[01280.0 ms] [SUCCESS] Host_A successfully delivered FRAME_Host_A_2 without collision.
+[01500.0 ms] ================================================================================
+[01500.0 ms] CSMA/CD SIMULATION COMPLETED: 6/8 Frames Delivered.
+[01500.0 ms] ================================================================================

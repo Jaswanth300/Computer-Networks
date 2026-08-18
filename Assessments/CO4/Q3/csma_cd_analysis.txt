@@ -1,0 +1,27 @@
+================================================================================
+TECHNICAL ANALYSIS: HOW CSMA/CD MINIMIZES DATA TRANSMISSION CONFLICTS
+================================================================================
+1. Carrier Sense (Listen Before Talk):
+   Before initiating frame transmission, a host listens to the physical channel 
+   (Carrier Sense). If the medium is sensed busy (voltage presence detected), the host 
+   defers transmission until the channel becomes idle. This significantly reduces 
+   collisions compared to uncoordinated protocols like Pure ALOHA.
+
+2. Immediate Collision Detection & Jamming Signal:
+   Despite carrier sensing, collisions can occur due to propagation delay (the time 
+   it takes a signal to travel down the physical wire). When two hosts transmit 
+   nearly simultaneously, their signals overlap and collide. Under CSMA/CD, hosts 
+   actively monitor signal voltage while transmitting. Upon detecting a collision:
+   - Hosts IMMEDIATELY abort transmission (saving channel bandwidth).
+   - Hosts transmit a 32-bit Jamming Signal to ensure all network nodes recognize 
+     the collision event and discard corrupted frame fragments.
+
+3. Binary Exponential Back-Off (BEB) Algorithm:
+   To prevent hosts from repeatedly colliding upon retransmission, CSMA/CD employs BEB:
+   - For collision count 'i' (where i = min(n, 10)), the host chooses a random integer 
+     'k' from the range [0, 2^i - 1].
+   - The host waits for k * SlotTime (51.2 microseconds) before sensing the channel again.
+   - As collision frequency increases, the backoff window expands exponentially (1, 3, 7, 
+     15, 31... 1023 slots). This dynamically disperses retransmission attempts across time, 
+     effectively resolving heavy channel congestion and minimizing future conflicts.
+================================================================================

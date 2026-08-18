@@ -1,0 +1,29 @@
+================================================================================
+TECHNICAL EXPLANATION: MAC ADDRESS LEARNING AND FRAME FORWARDING IN SWITCHES
+================================================================================
+1. The Role of the MAC Address Table:
+   An Ethernet switch maintains a hardware CAM (Content Addressable Memory) table, 
+   commonly called the MAC Address Table. It maps destination MAC addresses to specific 
+   ingress/egress physical switch ports.
+
+2. Source MAC Address Self-Learning:
+   When an Ethernet frame enters any switch port:
+   - The switch examines the SOURCE MAC address in the frame header.
+   - If the Source MAC is not in the table, the switch creates a new dynamic entry 
+     associating that MAC address with the receiving port and timestamps it.
+   - If the MAC address already exists on that port, its aging timer is reset. 
+     If it moved to a new port, the table entry is updated.
+
+3. Frame Forwarding Decisions (Unicast vs Broadcast/Flood):
+   After learning the source MAC, the switch inspects the DESTINATION MAC address:
+   a) Known Unicast Forwarding: If the Destination MAC is present in the table, the 
+      switch forwards the frame ONLY out the specific associated egress port (micro-segmentation).
+   b) Unknown Unicast Flooding: If the Destination MAC is NOT in the table, the switch 
+      floods the frame out all active ports EXCEPT the port on which it was received.
+   c) Broadcast Forwarding: If Destination MAC is FF:FF:FF:FF:FF:FF, the frame is flooded 
+      to all active ports (except source port).
+
+4. Bandwidth Optimization:
+   By learning MAC addresses, switches eliminate collisions and prevent unnecessary 
+   traffic flooding, ensuring dedicated full-duplex bandwidth to each connected host.
+================================================================================

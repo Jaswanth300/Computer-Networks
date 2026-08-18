@@ -1,0 +1,25 @@
+===========================================================================
+          STAR TOPOLOGY ASCII REPRESENTATION (Switch_Central_SW1)
+===========================================================================
+
+  Top Hosts:
+    Port 01 | [Host_01] ---- Cat6 (51.02m) ----\
+    Port 02 | [Host_02] ---- Cat6 (10.16m) ----\
+    Port 03 | [Host_03] ---- Cat6 (26.79m) ----\
+                                                    +---> [[ Switch_Central_SW1 ]]
+  Bottom Hosts:
+    Port 04 | [Host_04] ---- Cat6 (23.34m) ----/
+    Port 05 | [Host_05] ---- Cat6 (57.48m) ----/
+    Port 06 | [Host_06] ---- Cat6 (53.5m) ----/
+
+---------------------------------------------------------------------------
+Host Connection Table:
+Host Label      | Central Switch         | Media Type   | Cable Length (m)
+---------------------------------------------------------------------------
+Host_01         | Switch_Central_SW1     | Cat6 UTP     | 51.02          
+Host_02         | Switch_Central_SW1     | Cat6 UTP     | 10.16          
+Host_03         | Switch_Central_SW1     | Cat6 UTP     | 26.79          
+Host_04         | Switch_Central_SW1     | Cat6 UTP     | 23.34          
+Host_05         | Switch_Central_SW1     | Cat6 UTP     | 57.48          
+Host_06         | Switch_Central_SW1     | Cat6 UTP     | 53.50          
+===========================================================================
