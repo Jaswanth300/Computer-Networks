@@ -1,0 +1,16 @@
+=== StarSwitch_Core1 BROADCAST & PORT OPERATION LOG ===
+
+[17:55:58] [INITIALIZED] StarSwitch_Core1 created with 16 Ethernet ports.
+[17:55:58] [PORT CONNECTED] Host 'Host_A' successfully attached to Port-1.
+[17:55:58] [PORT CONNECTED] Host 'Host_B' successfully attached to Port-2.
+[17:55:58] [PORT CONNECTED] Host 'Host_C' successfully attached to Port-3.
+[17:55:58] [PORT CONNECTED] Host 'Host_D' successfully attached to Port-4.
+[17:55:58] [PORT CONNECTED] Host 'Host_E' successfully attached to Port-5.
+[17:55:58] [BROADCAST EVENT] Src: Host_A (Port-1) | Type: ARP_REQUEST | Payload: 'Who has IP 192.168.1.50? Tell Host_A'
+  --> Egress Ports Delivered (4 hosts): ['Host_B', 'Host_C', 'Host_D', 'Host_E']
+  --> Ingress Source Port Excluded: Port-1 (Host_A)
+[17:55:58] [PORT DISCONNECTED] Host 'Host_C' removed from Port-3. Port-3 is now FREE.
+[17:55:58] [BROADCAST EVENT] Src: Host_B (Port-2) | Type: DHCP_DISCOVER | Payload: 'DHCPDISCOVER: Requesting IP Lease'
+  --> Egress Ports Delivered (3 hosts): ['Host_A', 'Host_D', 'Host_E']
+  --> Ingress Source Port Excluded: Port-2 (Host_B)
+[17:55:58] [PORT CONNECTED] Host 'Host_F' successfully attached to Port-3.

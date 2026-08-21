@@ -1,6 +1,6 @@
 # Computer Networks (CSA0716)
 
-This repository contains my **Computer Networks** coursework, including laboratory experiments, assessments, Cisco Packet Tracer simulations, and capstone work.
+This repository contains my **Computer Networks** coursework, including laboratory experiments, assessments, Cisco Packet Tracer simulations, role-play activities, and capstone work.
 
 ---
 
@@ -33,7 +33,7 @@ Computer-Networks/
 │
 ├── CN-Lab-Experiments/
 │   ├── Cisco-Packet-Tracer/
-│   │   └── 14 Packet Tracer experiments
+│   │   └── 22 Packet Tracer experiments
 │   │
 │   └── Experiment-Outputs/
 │       ├── Computer-Networks-Lab-Outputs.docx
@@ -64,6 +64,16 @@ Computer-Networks/
 
 ---
 
+## CO4 Assessments
+
+| Assessment | Title | Status |
+|------------|-------|--------|
+| AT1 | Coding Challenge | ✅ Completed |
+| AT2 | Network Design & Simulation | ✅ Completed |
+| AT3 | Comparative Analysis | ✅ Completed |
+
+---
+
 ## Cisco Packet Tracer Experiments
 
 | No. | Experiment | Status |
@@ -82,6 +92,24 @@ Computer-Networks/
 | 12 | TCP Functionalities | ✅ Completed |
 | 13 | Class C Subnetting | ✅ Completed |
 | 14 | Simulating X, Y, Z Company Network Design | ✅ Completed |
+| 15 | DHCP Configuration | ✅ Completed |
+| 16 | Firewall | ✅ Completed |
+| 17 | Message Transfer | ✅ Completed |
+| 18 | Multimedia Network | ✅ Completed |
+| 19 | IoT Smart Home | ✅ Completed |
+| 20 | IoT Smart Gardening | ✅ Completed |
+| 21 | IoT Devices in Networking | ✅ Completed |
+| 22 | IoT-based AAA Local and Server | ✅ Completed |
+
+---
+
+## Role-Play Activity
+
+### TCP Three-Way Handshake
+
+A Computer Networks role-play activity demonstrating the **TCP three-way handshake** process: **SYN → SYN-ACK → ACK**.
+
+The activity includes presentation slides, TCP sequence diagrams, SYN/SYN-ACK/ACK diagrams, a PDF presentation, a PowerPoint presentation, and supporting Python files.
 
 ---
 
